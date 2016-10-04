@@ -25,7 +25,7 @@ for (var i = 0; i < inserts; i++) {
 
   console.log(data);
 
-  members[i] = axios.post(apiurl'/user/add', data,
+  members[i] = axios.post(apiurl+'/user/add', data,
   {
     headers: {
       'x-access-token': token
