@@ -1,0 +1,17 @@
+{
+  "name": "doorlock-faker-insert",
+  "version": "1.0.0",
+  "description": "insert fake members",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "generateEnvFile": "node generateEnvFile.js"
+  },
+  "author": "Ole-Andreas Nylund",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.11.1",
+    "dotenv": "^2.0.0",
+    "faker": "^3.1.0"
+  }
+}
