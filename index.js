@@ -16,7 +16,7 @@ for (var i = 0; i < inserts; i++) {
   var data = {
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),
-    userName: faker.name.firstName(),
+    userName: faker.name.firstName().toLowerCase(),
 	  graduationYear: Math.floor(Math.random() * 5) + 2016,
     privateEmail: faker.internet.email(),
     mobile: faker.phone.phoneNumberFormat(),
